@@ -1,0 +1,20 @@
+{
+  "name": "my-bank-api",
+  "version": "1.0.0",
+  "description": "Trabalho pratico para obtenção de nota para modulo IV IGTI.",
+  "main": "server.js",
+  "scripts": {
+    "mon": " nodemon --experimental-modules server.js"
+  },
+  "type": "module",
+  "author": "Jefte Souza",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.9.21",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
