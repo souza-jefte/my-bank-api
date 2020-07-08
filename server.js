@@ -2,7 +2,7 @@
 import express from 'express';
 import { router as roteador } from './router/routerAccounts.js';
 
-const port = 3000;
+const port = process.env.PORT || 3000;
 const app = express();
 
 app.use(express.json());
