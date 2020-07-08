@@ -11,12 +11,12 @@
   "author": "Jefte Souza",
   "license": "ISC",
   "devDependencies": {
-    "dotenv": "^8.2.0",
-    "mongoose": "^5.9.21",
     "nodemon": "^2.0.4"
   },
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.9.21"
   }
 }
