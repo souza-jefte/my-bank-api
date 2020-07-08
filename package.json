@@ -4,7 +4,8 @@
   "description": "Trabalho pratico para obtenção de nota para modulo IV IGTI.",
   "main": "server.js",
   "scripts": {
-    "mon": " nodemon --experimental-modules server.js"
+    "mon": " nodemon --experimental-modules server.js",
+    "start": "node --experimental-modules server.js "
   },
   "type": "module",
   "author": "Jefte Souza",
@@ -15,6 +16,7 @@
     "nodemon": "^2.0.4"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1"
   }
 }
