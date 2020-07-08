@@ -6,12 +6,7 @@ const port = 3000;
 const app = express();
 
 app.use(express.json());
-/* app.use((req, resp, next) => {
-  const { headers, url, method } = req;
-  console.log(` Informaçoes: host: ${headers.host} | url: ${url} | method: ${method}`);
 
-  next();
-}); */
 
 
 app.use('/', roteador);
